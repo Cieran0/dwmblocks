@@ -1,7 +1,7 @@
 //Modify this file to change what commands output to your statusbar, and recompile using the make command.
 static const Block blocks[] = {
 	/*Icon*/	/*Command*/		/*Update Interval*/	/*Update Signal*/
-	{"🔊 ", /home/cieran/scripts/getVolume.sh,			10,		0},
+	{"🔊 ", "/home/cieran/scripts/getVolume.sh",			0,		1},
 	
 	
 	{"Mem:", "free -h | awk '/^Mem/ { print $3\"/\"$2 }' | sed s/i//g",	20,		0},
